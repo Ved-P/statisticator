@@ -1,6 +1,6 @@
 var table = document.getElementsByTagName('table');
 
-function initTable() {
+window.onload = function() {
   table = '<tr><th>[Enter Column Name]</th>';
   table += '<th>+Column</th></tr>';
   table += '<tr><th>[Enter Value]</th></tr>';
